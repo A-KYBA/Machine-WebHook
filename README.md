@@ -2,6 +2,8 @@
 
 Production line machine monitoring system using the Observer design pattern.
 
+**Task 1** demonstrates the Observer pattern in a console app. **Task 2** extends it with a raw PHP WebSocket server and a React dashboard that streams live machine state updates, filtered per-employee with overlapping machine assignments.
+
 ## Stack
 
 - **Backend:** PHP (OOP)
