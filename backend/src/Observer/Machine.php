@@ -8,8 +8,4 @@ class Machine extends Subject
     {
         $this->name = $name;
     }
-
-    public function setState(string $s): void {}
-    public function attach(Observer $o): void {}
-    public function notifyAllObservers(): void {}
 }

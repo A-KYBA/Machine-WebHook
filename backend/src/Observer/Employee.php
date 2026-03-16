@@ -10,5 +10,8 @@ class Employee extends Observer
         $this->role = $role;
     }
 
-    public function update(string $state, string $from): void {}
+    public function update(string $state, string $from): void
+    {
+        echo "{$this->name} ({$this->role}): {$from} is now {$state}\n";
+    }
 }
