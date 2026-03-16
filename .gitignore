@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+
+# Environment
+.env
+
+# PDFs
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
