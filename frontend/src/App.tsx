@@ -1,7 +1,9 @@
+import Header from './components/organisms/Header/Header';
+
 function App() {
   return (
     <div>
-      <h1>Machine Dashboard</h1>
+      <Header />
     </div>
   );
 }
