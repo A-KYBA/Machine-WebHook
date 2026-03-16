@@ -14,8 +14,8 @@ Production line machine monitoring system using the Observer design pattern.
 # Task 1 - Observer Pattern (console output)
 php backend/main.php
 
-# Challenge Task - WebSocket Server
-php -S localhost:8000 -t backend
+# Challenge Task - WebSocket Server (uses project-local php.ini for sockets extension)
+php -c backend/php.ini backend/bin/server.php
 ```
 
 ### Frontend

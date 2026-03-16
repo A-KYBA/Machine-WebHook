@@ -2,10 +2,19 @@
 
 class Dashboard extends Observer
 {
-    public function __construct(string $name)
+    private WebSocketServer $server;
+
+    public function __construct(string $name, WebSocketServer $server)
     {
         $this->name = $name;
+        $this->server = $server;
     }
 
-    public function update(string $state, string $from): void {}
+    public function update(string $state, string $from): void
+    {
+        $this->server->broadcastMachine($from, json_encode([
+            'name' => $from,
+            'state' => $state,
+        ]));
+    }
 }

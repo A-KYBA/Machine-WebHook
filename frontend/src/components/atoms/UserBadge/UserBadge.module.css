@@ -1,4 +1,6 @@
 .badge {
   background-color: #1a1a1a;
   padding: 4px 8px;
+  cursor: pointer;
+  user-select: none;
 }
