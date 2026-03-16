@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 1.6;
+  padding: 16px;
+  background: #eee;
+  border: 1px solid #ddd;
+
+  .name {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}

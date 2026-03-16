@@ -1,0 +1,7 @@
+.badge {
+  font-weight: 600;
+
+  &.producing { color: green; }
+  &.idle { color: goldenrod; }
+  &.starved { color: red; }
+}
